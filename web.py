@@ -13,7 +13,7 @@ st.sidebar.title("Plant Disease system for Sustainable Agriculture")
 app_mode = st.sidebar.selectbox('select page',['Home','Disease Recognition'])
 
 from PIL import Image
-img= Image.open('download.jpeg')
+img= Image.open('D:\potato-leaf-disease-detection-project\dataset\download.jpeg')
 st.image(img)
 
 if(app_mode=='HOME'):
